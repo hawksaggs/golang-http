@@ -10,5 +10,5 @@ func main() {
 		writer.Write([]byte(hello.SayHello()))
 	})
 
-	http.ListenAndServe(":5000", nil)
+	http.ListenAndServe(":3000", nil)
 }
